@@ -1,0 +1,24 @@
+maxswingspeed = 13;
+draw_set_font(GUI_Font);
+hsp = 0;
+vsp = 0;
+
+money = 0;
+
+swordspeedvar = 0;
+
+movespeed = 4;
+
+player_canmove = true;
+player_canswing = true;
+player_canbehurt = true;
+
+hassword = false;
+
+spinposition = 0;
+
+instance_create(x,y,mouselook);
+head = instance_create(x,y,obj_head);
+with head spinangle = 0;
+
+playerhp = 10;
